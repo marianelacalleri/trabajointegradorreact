@@ -1,0 +1,30 @@
+[
+    
+    {
+        "id": 1,
+        "nombre": "Personal Card",
+        "description": "Interactive personal card, with some HTML5 and CSS3",
+        "img": "images/project1.png",
+        "link": "https://marianelacalleri.github.io/Tarjetadepresentacion/",
+        "action": "Check it out!"
+    }, 
+
+    {
+        "id": 2,
+        "nombre": "Personal Card",
+        "description": "Interactive personal card, with some HTML5 and CSS3",
+        "img": "images/project1.png",
+        "link": "https://marianelacalleri.github.io/Tarjetadepresentacion/",
+        "action": "Check it out!"
+    }, 
+
+    {
+        "id": 3,
+        "nombre": "Personal Card",
+        "description": "Interactive personal card, with some HTML5 and CSS3",
+        "img": "images/project1.png", 
+        "link": "https://marianelacalleri.github.io/Tarjetadepresentacion/",
+        "action": "Check it out!"
+    }
+
+]

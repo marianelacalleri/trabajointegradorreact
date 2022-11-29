@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=League+Spartan:wght@100;300;600;900&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    --font-name: 'League Spartan', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #7756ec;
+    --secondary-color: #b6d8ee; 
+    --primary-shadow: #8b8eaf; 
+    --secondary-shadow: #a17a69; 
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--font-body);
+}
+
+/* ------------------ NAV BAR Section ----------------------*/
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    font-family: var(--font-name);
+    color: var(--primary-color);
+}
+
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+} 
+
+nav ul li {
+    font-weight: var(--bold-font);
+}
+
+.menu-hamb {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+/* ------------------------- INTRO Section ---------------- */
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.intro img {
+    height: 37.5rem;
+    width: 37.5rem;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px var(--primary-shadow);
+}
+
+.bio h2 {
+    margin-bottom: var(--bottom-margin);
+    font-family: var(--font-name);
+}
+
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;;
+}
+
+/* ------------------------- MORE ABOUT ME Section ---------------- */
+
+.more-about-me {
+    background-color: var(--bg-color);
+    padding: 2rem 20rem;
+   
+}
+
+.more-about-me h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-family: var(--font-name);
+}
+
+.more-about-me p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+}
+
+/* ------------------------- SKILLS Section ---------------- */
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.header-skills {
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+}
+
+.container-skills img {
+    padding: 1.25rem;
+}
+
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+.skills h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-family: var(--font-name);
+}
+
+
+
+/* ------------------------- PROJECTS Section ---------------- */
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;;
+    margin-top: 2rem;
+}
+
+.projects h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-family: var(--font-name);
+}
+
+.project-pic {
+    width: 65%;
+    height: 65%;
+}
+
+.container-all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+.container-project {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.container-project h3 {
+    font-family: var(--font-name);
+    margin-top: 1rem;
+}
+
+.project-title {
+    text-align: center;
+    margin-bottom: var(--bottom-margin);
+}
+
+.container-project p {
+    padding: 0.4rem;
+}
+
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+
+
+
+
+/* ------------------------- FOOTER Section ---------------- */
+
+footer {
+    position: relative;
+    width: 100%;
+    background: var(--bg-color);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 20px 50px;
+
+}
+

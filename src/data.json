@@ -1,0 +1,56 @@
+[
+
+    {
+        "id":1,
+        "nombre": "HTML5",
+        "imagen": "../images/html5.svg",
+        "descripcion": "HiperText Markup Language"
+    },
+
+    {
+        "id":2,
+        "nombre": "CSS",
+        "imagen": "../images/css.svg",
+        "descripcion": "Cascading Style Sheets"
+    },
+
+    {
+        "id":3,
+        "nombre": "JS",
+        "imagen": "../images/javascript.svg",
+        "descripcion": "Javascript"
+    },
+
+    {
+        "id":4,
+        "nombre": "PYTHON",
+        "imagen": "../images/python.svg",
+        "descripcion": "Python"
+    },
+
+    {
+        "id":5,
+        "nombre": "VUE",
+        "imagen": "../images/vue.svg",
+        "descripcion": "Vue"
+    },
+
+    {
+        "id":6,
+        "nombre": "FIGMA",
+        "imagen": "../images/figma.svg",
+        "descripcion": "Figma"
+    },
+
+    {
+        "id":7,
+        "nombre": "REACT",
+        "imagen": "../images/react.svg",
+        "descripcion": "React"
+    }
+
+
+
+
+
+]
